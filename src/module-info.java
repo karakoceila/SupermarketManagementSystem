@@ -5,6 +5,7 @@
  * @author KARA Koceila
  *
  */
-module SupermarketManagementSystem {
-	requires java.sql;
+module com.supermarket.management {
+    requires java.sql;
+    requires log4j;
 }
